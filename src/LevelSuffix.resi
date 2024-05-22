@@ -1,1 +1,4 @@
-type t = NOTHING | SPACE | TAB
+type t =
+  | @as("nothing") NOTHING
+  | @as("space") SPACE
+  | @as("tab") TAB
