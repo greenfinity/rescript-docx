@@ -28,6 +28,7 @@ type options = {
   wordWrap?: bool,
   scale?: float,
   autoSpaceEastAsianText?: bool,
+  style?: string,
   /* <- */
   text?: string,
   children?: array<ParagraphChild.t>,
