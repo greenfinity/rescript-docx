@@ -5,7 +5,7 @@ type rec t = {
   footerWrapperGroup?: Headers.headerFooterGroup<Headers.FooterWrapper.t>,
   lineNumbers?: LineNumberAttributes.t,
   titlePage?: bool,
-  vertialAlign?: [#bottom | #center | #top],
+  verticalAlign?: [#bottom | #center | #top],
   column?: Columns.attributes,
   @as("type") type_?: [#nextPage | #nextColumn | #continuous | #evenPage | #oddPage],
 }

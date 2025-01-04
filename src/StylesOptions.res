@@ -8,6 +8,7 @@ type paragraphStylesPropertiesOptions = {
   keepNext?: bool,
   leftTabStop?: float,
   numbering?: Util.Types.numbering,
+  spacing?: SpacingProperties.t,
 }
 
 type baseCharacterStyleOptions = {
