@@ -1,5 +1,5 @@
 {
-  "name": "rescript-docx",
+  "name": "@greenfinity/rescript-docx",
   "namespace": "docx",
   "version": "0.1.0",
   "sources": [

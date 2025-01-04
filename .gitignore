@@ -29,3 +29,5 @@ lib/bs
 *.bs.js
 lib/ocaml
 simple-paragraph.docx
+
+.DS_Store
