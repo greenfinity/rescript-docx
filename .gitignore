@@ -31,3 +31,10 @@ lib/ocaml
 simple-paragraph.docx
 
 .DS_Store
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
