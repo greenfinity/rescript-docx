@@ -15,12 +15,15 @@
   ],
   "package-specs": [
     {
-      "module": "es6",
+      "module": "esmodule",
       "in-source": true
     }
   ],
-  "suffix": ".bs.js",
-  "refmt": 3,
+  "warnings": {
+    "number": "-44",
+    "error": "+101"
+  },
+  "suffix": ".bs.mjs",
   "jsx": { "version": 4, "mode": "classic" },
   "bs-dev-dependencies": ["rescript-nodejs"]
 }
