@@ -89,5 +89,4 @@ and space = {
 }
 
 /** @see https://docx.js.org/api/types/IFrameOptions.html */
-@unwrap
 type t = XYFrameOptions(xyFrameOptions) | AlignmentFrameOptions(alignmentFrameOptions)
