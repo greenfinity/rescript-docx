@@ -139,5 +139,4 @@ and space = {
   vertical: float,
 }
 
-@unwrap
 type t = XYFrameOptions(xyFrameOptions) | AlignmentFrameOptions(alignmentFrameOptions)

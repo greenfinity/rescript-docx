@@ -6,8 +6,9 @@
     "changelog": "yarn auto-changelog -p && git add HISTORY.md",
     "build": "yarn rescript:build",
     "rescript:clean": "yarn rescript clean",
-    "rescript:build": "yarn rescript build -with-deps",
-    "rescript:dev": "yarn rescript build -with-deps -w",
+    "rescript:build": "yarn rescript build",
+    "rescript:build:dev": "yarn rescript build --dev",
+    "rescript:dev": "yarn rescript watch --dev",
     "test": "yarn vitest --run --coverage --allow-only",
     "test:dev": "yarn vitest",
     "yalc:dev": "yarn rescript:dev & yarn nodemon -x \"yalc push\"",
@@ -30,17 +31,21 @@
   },
   "homepage": "https://github.com/greenfinity/rescript-docx#readme",
   "devDependencies": {
-    "@greenfinity/rescript-nodejs": "^16.1.1-1",
     "auto-changelog": "^2.5.0",
     "file-saver": "^2.0.5",
     "nodemon": "^3.1.7",
-    "rescript": "^11.1.0"
+    "rescript": "^12.0.0-beta.4",
+    "rescript-nodejs": "^16.1.0"
   },
   "dependencies": {
     "@vitest/coverage-v8": "^2.1.8",
     "docx": "^8.2.3",
     "jsdom": "^25.0.1",
     "vitest": "^2.1.8"
+  },
+  "peerDependencies": {
+    "rescript": "^12.0.0-beta.4",
+    "rescript-nodejs": "^16.1.0"
   },
   "packageManager": "yarn@4.6.0"
 }

@@ -4,7 +4,6 @@ type prettifyType =
   | @as("    ") With4Blanks
   | @as("\t") WithTab
 
-@unwrap
 type prettify = Bool(bool) | Pretty(prettifyType)
 
 @module("docx") @scope("Packer")

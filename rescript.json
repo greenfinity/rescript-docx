@@ -25,5 +25,5 @@
   },
   "suffix": ".bs.mjs",
   "jsx": { "version": 4, "mode": "classic" },
-  "bs-dev-dependencies": ["@greenfinity/rescript-nodejs"]
+  "dev-dependencies": ["rescript-nodejs"]
 }
