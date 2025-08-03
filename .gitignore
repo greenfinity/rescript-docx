@@ -38,3 +38,11 @@ simple-paragraph.docx
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+
+**/*.bs.mjs
+lib/*
+!lib/js
+lib/js/*
+!lib/js/src
+coverage
+.coveralls.yml
